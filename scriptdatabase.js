@@ -48,13 +48,13 @@ function UserPass() {
 function userlogout() {
     alert("User Successfully Logged Out.");
     localStorage.clear();
-    location.href = "Stormcoin.html";
+    location.href = "index.html";
 
 }
 
 function cancelbtn() {
     localStorage.clear();
-    location.href = "Stormcoin.html";
+    location.href = "index.html";
 }
 
 function NewUser() {
