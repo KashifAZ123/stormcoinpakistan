@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
     //mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     // echo "Mail Sent. Thank you " . $first_name . ", we will contac  t you shortly.";
 
-    header("Location: Stormcoin.html"); 
+    header("Location: index.html"); 
   
     exit; 
  
