@@ -31,9 +31,9 @@ function UserPass() {
 
     if (nameval && passval) {
 //         document.getElementById("form-login").setAttribute("action", "userinterface.html");
+        window.localStorage.setItem("currentuser", x);
         window.location.replace("userinterface.html");
 
-        window.localStorage.setItem("currentuser", x);
     }
     else if (nameval === undefined || passval === undefined) {
         document.getElementById("form-login").setAttribute("action", "accessblocker.html");
