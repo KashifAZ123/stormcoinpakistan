@@ -37,7 +37,8 @@ function UserPass() {
 
     }
     else if (nameval === undefined || passval === undefined) {
-        document.getElementById("form-login").setAttribute("action", "accessblocker.html");
+//         document.getElementById("form-login").setAttribute("action", "accessblocker.html");
+        window.location.href = 'accessblocker.html';
 
     } else {
         var x;
