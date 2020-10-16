@@ -30,7 +30,8 @@ function UserPass() {
 
 
     if (nameval && passval) {
-        document.getElementById("form-login").setAttribute("action", "userinterface.html");
+//         document.getElementById("form-login").setAttribute("action", "userinterface.html");
+        window.location.replace("userinterface.html");
 
         window.localStorage.setItem("currentuser", x);
     }
