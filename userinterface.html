@@ -19,6 +19,17 @@
   <link rel="html" href="accessblocker.html"> -->
 <title>Login - StormCoin</title>
 </head>
+<script src="scriptdatabase.js"></script>
+
+<script>
+
+    var currentuser = window.localStorage.getItem("currentuser");
+    console.log(currentuser);
+    document.getElementById("namevalue").innerHTML = currentuser;
+
+</script>
+
+
 <style>
     * {
         font-family: 'Raleway', sans-serif;
@@ -40,7 +51,6 @@
     }
 </style>
 <html>
-<script src="scriptdatabase.js"></script>
 
 <body>
     <div class="container-fluid mx-0 ">
@@ -90,13 +100,6 @@
     </div>
 
 </body>
-<script>
-
-    var currentuser = window.localStorage.getItem("currentuser");
-    console.log(currentuser);
-    document.getElementById("namevalue").innerHTML = currentuser;
-
-</script>
 
 
 </html>
